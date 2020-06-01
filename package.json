@@ -1,0 +1,20 @@
+{
+  "name": "screenshot-maker",
+  "version": "0.0.0",
+  "author": {
+    "name": "Orly Knop",
+    "url": "https://github.com/orlyohreally"
+  },
+  "private": true,
+  "scripts": {
+    "setup-bundle": "browserify main.js -o bundle.js"
+  },
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "html2canvas": "^1.0.0-rc.5",
+    "jspdf": "^1.5.3"
+  },
+  "repository": {
+    "url": "https://github.com/orlyohreally/screenshot-maker"
+  }
+}
